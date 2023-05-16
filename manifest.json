@@ -1,0 +1,10 @@
+{
+	"manifest_version": 3,
+	"name": "Pagetime",
+	"description": "Lets you know how long you were on a page for.",
+	"version": "0.0.1",
+	"permissions": ["notifications", "storage", "webNavigation"],
+	"background": {
+		"service_worker": "background.js"
+	}
+}
